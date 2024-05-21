@@ -43,8 +43,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 I've developed proficiency in essential HTML tags, CSS properties, and the utilization of Sass to elevate my projects. Moreover, I've gained expertise in structuring files in a nested format for better organization. Additionally, I've mastered Markdown for effectively documenting my projects on Frontend Mentor. Furthermore, I've acquired the skill of presenting my projects live on GitHub, showcasing them to a wider audience.
 
-To see how you can add code snippets, see below:
-
 ### Continued development
 
 Given that my proficiency in React.js, JavaScript, and Tailwind CSS is not yet solidified, I aim to utilize these technologies for future projects.
