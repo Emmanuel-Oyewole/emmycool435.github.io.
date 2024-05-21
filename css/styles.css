@@ -1,66 +1,54 @@
-body {
-  font-family: "Outfit", sans-serif;
-  font-size: 15px;
+body{
   background: hsl(212, 45%, 89%);
-  height: 180vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
-}
-
-.card {
-  background: white;
+  margin: 0;
   box-sizing: border-box;
-  width: fit-content;
-  padding: 15px;
+  font-family: outfit, sans-serif;
+  font-size: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: -5px 1px 25px hsla(220, 15%, 55%, 0.3);
-  border-radius: 20px;
-  margin: 80px;
+  height: 100vh;
+  overflow: hidden;
+
 }
 
-img {
-  width: 440px;
-  border-radius: 12px;
-}
-
-.text {
+.card{
+  background: white;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.1rem;
+  padding: 12px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.07);
+  margin-bottom: 60px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  width: 18rem;
+  
+}
+
+.text-area{
   text-align: center;
+  padding: 13px;
 }
 
-h1 {
-  font-size: 2.2em;
+h1{
+  font-size: 23px;
   color: hsl(218, 44%, 22%);
-  margin-bottom: 0px;
+  
 }
 
-p {
-  font-size: 1.5em;
+p{
+  font-size: 16px;
   color: hsl(220, 15%, 55%);
-  margin-bottom: 80px;
 }
 
-@media (max-width: 375px) {
-  .card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  img {
-    width: 300px;
-  }
-  h1 {
-    font-size: 26px;
-  }
-  p {
-    font-size: 18px;
-  }
+@media  only screen and (min-width: 1440px) {
+  
 }
-
-/*# sourceMappingURL=styles.css.map */
